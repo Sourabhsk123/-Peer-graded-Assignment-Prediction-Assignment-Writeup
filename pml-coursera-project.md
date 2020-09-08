@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>Peer-graded-Assignment-Prediction-Assignment-Writeup/README.md at master · cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup</title>
+  <title>Peer-graded-Assignment-Prediction-Assignment-Writeup/pml-coursera-project.md at master · cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup</title>
     <meta name="description" content="Contribute to cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -43,10 +43,10 @@
   
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/53146205/ws?session=eyJ2IjoiVjMiLCJ1Ijo1MzE0NjIwNSwicyI6NTc5NTc5ODYyLCJjIjozMDYyNDUwMTcsInQiOjE1OTk1OTExNDh9--b9373f9e46b51e835450288b3b9c2c04ae47304f0206e71c5d80ef28a8b7be14" data-refresh-url="/_alive">
+    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/53146205/ws?session=eyJ2IjoiVjMiLCJ1Ijo1MzE0NjIwNSwicyI6NTc5NTc5ODYyLCJjIjozNjY0NDYyMzAsInQiOjE1OTk1OTExNTl9--d43a1443f3d865fd4a43e2cb9906b93ab54996724cc7854c553662002aed74d5" data-refresh-url="/_alive">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="95AC:1D4C:EA65D1:13A6B11:5F57D2EC" data-pjax-transient="true" /><meta name="html-safe-nonce" content="8a3f830d04318c34e5f5b15100a597f849722c64" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9jYXZpZHlhL1BlZXItZ3JhZGVkLUFzc2lnbm1lbnQtUHJlZGljdGlvbi1Bc3NpZ25tZW50LVdyaXRldXAiLCJyZXF1ZXN0X2lkIjoiOTVBQzoxRDRDOkVBNjVEMToxM0E2QjExOjVGNTdEMkVDIiwidmlzaXRvcl9pZCI6IjM4NTYzMzA3ODMxMDQ0MDc4MzAiLCJyZWdpb25fZWRnZSI6ImFwLXNvdXRoLTEiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="1977e37e10e11f148a9257a13fd69d5ef2bb0d62029071be5b2326450cdaa1fe" data-pjax-transient="true" /><meta name="cookie-consent-required" content="false" />
+  <meta name="request-id" content="95AF:6BA6:21121EA:2C4ED0B:5F57D2F7" data-pjax-transient="true" /><meta name="html-safe-nonce" content="8a3f830d04318c34e5f5b15100a597f849722c64" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9jYXZpZHlhL1BlZXItZ3JhZGVkLUFzc2lnbm1lbnQtUHJlZGljdGlvbi1Bc3NpZ25tZW50LVdyaXRldXAiLCJyZXF1ZXN0X2lkIjoiOTVBRjo2QkE2OjIxMTIxRUE6MkM0RUQwQjo1RjU3RDJGNyIsInZpc2l0b3JfaWQiOiIzODU2MzMwNzgzMTA0NDA3ODMwIiwicmVnaW9uX2VkZ2UiOiJhcC1zb3V0aC0xIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="1e75b01ee418b889b2af8a66fd69a716b4ef1dd0b4b43799508788e4c256b7b7" data-pjax-transient="true" /><meta name="cookie-consent-required" content="false" />
 
     <meta name="hovercard-subject-tag" content="repository:78254526" data-pjax-transient>
 
@@ -90,7 +90,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="N2VmZDMyMzhmZmQ0MGIzMWEyYTZmMjU0YWM5YzM2YTBlZDdmMDBiMTc0NjdhOWMzNzI1ZDIzNzI4MGVjNGU1Ynx7InJlbW90ZV9hZGRyZXNzIjoiMS4xODYuMTg3LjY3IiwicmVxdWVzdF9pZCI6Ijk1QUM6MUQ0QzpFQTY1RDE6MTNBNkIxMTo1RjU3RDJFQyIsInRpbWVzdGFtcCI6MTU5OTU5MTE0OCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+      <meta name="js-proxy-site-detection-payload" content="ODcyZmIxN2Y2MGQ2ZDFmMjIzNGYzZTIyYmM3Mjg0ZTg1MjkyMzM2OGJjNDAzZjNmNGJjZWVlNDZjNDEyM2ViYXx7InJlbW90ZV9hZGRyZXNzIjoiMS4xODYuMTg3LjY3IiwicmVxdWVzdF9pZCI6Ijk1QUY6NkJBNjoyMTEyMUVBOjJDNEVEMEI6NUY1N0QyRjciLCJ0aW1lc3RhbXAiOjE1OTk1OTExNTksImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,JS_HTTP_CACHE_HEADERS">
 
@@ -104,7 +104,7 @@
   <meta name="octolytics-dimension-user_id" content="17039743" /><meta name="octolytics-dimension-user_login" content="cavidya" /><meta name="octolytics-dimension-repository_id" content="78254526" /><meta name="octolytics-dimension-repository_nwo" content="cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="78254526" /><meta name="octolytics-dimension-repository_network_root_nwo" content="cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -176,7 +176,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="1wAh4d+uMzcjlWoQB+MuQJndiK/AZkNcQWsWmjVjYIrwiu6W4CUDwSKEogIrtNkarWLH5OKrngemFWQFomuBkQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="woLMR8h7NO4hdk3SQ0saYCD9D/1r3GI7/jQZ9QI7PI3lCAMw9/AEGCBnhcBvHO06FEJAtkkRv2AZSmtqlTPdlg==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -327,7 +327,7 @@
       <img class="avatar avatar-user" src="https://avatars2.githubusercontent.com/u/53146205?s=40&amp;v=4" width="20" height="20" alt="@Sourabhsk123" />
       Sourabhsk123
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="AaQQ3RExDEU5zowNjnC85quBNqNC4wLRiuxQ4IRZSrhYzw2pLYk5D4oQJ12z4pPq3bzbX/yI3lo+th2LpM4RJg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="GRv7EZxVocqcQgewAOLsHnjW5JYnVdcJUXMQ/Xs50QZAcOZloO2UgC+crOA9cMMSDusJapk+C4LlKV2WW66KmA==" />
       <button type="submit" class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade-15 d-md-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
         Sign out
@@ -347,7 +347,7 @@
   <div class="Header-item mr-0 mr-md-3 flex-order-1 flex-md-order-none">
     
 
-    <notification-indicator class="js-socket-channel" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NTMxNDYyMDUiLCJ0IjoxNTk5NTkxMTQ4fQ==--5a6ac293ce9a6dddd1a67250cdd57753428432de935173cb055a4aa92c06c7a6">
+    <notification-indicator class="js-socket-channel" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NTMxNDYyMDUiLCJ0IjoxNTk5NTkxMTU5fQ==--d9655db612bf8bbb2654284fc417feb93e988749c19f873c508c4372c2f9ef2e">
       <a href="/notifications"
          class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
          aria-label="You have no unread notifications"
@@ -429,7 +429,7 @@
   data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:17039743,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:53146205,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;}}" data-hydro-click-hmac="64d442dc3b7b4e220e5224d1058c4d716c0af3d6af29eae5eaaa293350af7779">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:17039743,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:53146205,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;}}" data-hydro-click-hmac="0d4092d85521d463686910e2a69c27362986a6324f13b23fc85192cb752ec607">
       <div class="d-flex flex-items-center flex-items-stretch">
         <div class="f6 lh-condensed user-status-header d-flex user-status-emoji-only-header circle">
           <div class="user-status-emoji-container flex-shrink-0 mr-2 d-flex flex-items-center flex-justify-center lh-condensed-ultra v-align-bottom">
@@ -447,7 +447,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?circle=0&amp;compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="CanQCJojNCPcuVXdrMkwcvaxbclOViEUNP7nEktnYjiAvEo9QrXmhlAq0G85Zt1LYZAxd3ibq7s5Lt2JGG8KNQ==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?circle=0&amp;compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="r4lxGhh6Jt+dH/H0d6ATwA3UjMtNK42P/Hu4Bap1QcwmnOsvwOz0ehGMdEbiD/75mvXQdXvmByDxq4Ke+X0pwQ==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
@@ -565,17 +565,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-09-09T00:52:28+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-09-09T00:52:39+05:30">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-09-09T01:22:28+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-09-09T01:22:39+05:30">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-09-09T04:22:28+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-09-09T04:22:39+05:30">
             in 4 hours
           </button>
         </li>
@@ -611,24 +611,24 @@
       </div>
       <div role="none" class="dropdown-divider"></div>
 
-    <a role="menuitem" class="dropdown-item" href="/Sourabhsk123" data-ga-click="Header, go to profile, text:your profile" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;target&quot;:&quot;YOUR_PROFILE&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="2c260ba6b9e69a35cde64fe1dd43f8e51df0d2cf989c61ed7413e50632c9de85" >Your profile</a>
+    <a role="menuitem" class="dropdown-item" href="/Sourabhsk123" data-ga-click="Header, go to profile, text:your profile" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;target&quot;:&quot;YOUR_PROFILE&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="88f3ed731276c41df0a5bbd54bb6516d42b62ee5afe5dc5e59a7fb95c1931264" >Your profile</a>
 
-    <a role="menuitem" class="dropdown-item" href="/Sourabhsk123?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;target&quot;:&quot;YOUR_REPOSITORIES&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="2ac79f417583dd7f4b3d3e5999ab2111128523a0129eadecc630b0acc16179aa" >Your repositories</a>
-
-
-
-    <a role="menuitem" class="dropdown-item" href="/Sourabhsk123?tab=projects" data-ga-click="Header, go to projects, text:your projects" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;target&quot;:&quot;YOUR_PROJECTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="11b37d581e2683cc271d4da2fb903266284a5758ad36a581c2dc7d9eb05f4579" >Your projects</a>
+    <a role="menuitem" class="dropdown-item" href="/Sourabhsk123?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;target&quot;:&quot;YOUR_REPOSITORIES&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="9f42e7296cb86715f274f16bda6134beef26d4490ff25ff41f1d797685b3e130" >Your repositories</a>
 
 
-    <a role="menuitem" class="dropdown-item" href="/Sourabhsk123?tab=stars" data-ga-click="Header, go to starred repos, text:your stars" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;target&quot;:&quot;YOUR_STARS&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="673e66d6b7f106376f0b1771e9c7495f81eb959e4bccc83695b6400a2e31cfdf" >Your stars</a>
-      <a role="menuitem" class="dropdown-item" href="https://gist.github.com/mine" data-ga-click="Header, your gists, text:your gists" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;target&quot;:&quot;YOUR_GISTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="b3dbb5e6bae2ffa384910a8304b38ab597cd57c83f92cc86c2dff88e263d9e42" >Your gists</a>
+
+    <a role="menuitem" class="dropdown-item" href="/Sourabhsk123?tab=projects" data-ga-click="Header, go to projects, text:your projects" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;target&quot;:&quot;YOUR_PROJECTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="d307647055a253ff759591fe9bb019e589a5b505f26592a0962dd695d4bb4b6d" >Your projects</a>
+
+
+    <a role="menuitem" class="dropdown-item" href="/Sourabhsk123?tab=stars" data-ga-click="Header, go to starred repos, text:your stars" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;target&quot;:&quot;YOUR_STARS&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="a1437db035e582a1de86ed03c12eedcbbd04503d783a5e47c44d92ff158bb4b1" >Your stars</a>
+      <a role="menuitem" class="dropdown-item" href="https://gist.github.com/mine" data-ga-click="Header, your gists, text:your gists" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;target&quot;:&quot;YOUR_GISTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="a27769344fae491f9fb5b11e6fc0fedd51308845eb5170e87a82aa7245c69e06" >Your gists</a>
 
 
 
 
 
     <div role="none" class="dropdown-divider"></div>
-      <a role="menuitem" class="dropdown-item" href="/settings/billing" data-ga-click="Header, go to billing, text:upgrade" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;target&quot;:&quot;UPGRADE&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="c2bdb6810921fb42dead106132ab50f3fd39cc92ca5b4b91c146f3cfd54e0f35" >Upgrade</a>
+      <a role="menuitem" class="dropdown-item" href="/settings/billing" data-ga-click="Header, go to billing, text:upgrade" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;target&quot;:&quot;UPGRADE&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="b65043879fe6d388dbe797dcfb4440146df76adcbe50bde9d2ae701f365ea7ca" >Upgrade</a>
       
 <div id="feature-enrollment-toggle" class="hide-sm hide-md feature-preview-details position-relative">
   <button
@@ -636,24 +636,24 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/Sourabhsk123/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}"
-    data-feature-preview-close-hmac="913c6ba7108b4f3f6ae747f8f25a0fe8a782b05f856cb4f5758693e35f2d0357"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}"
-    data-hydro-click-hmac="49feb1f3ebb093304b1a52ddf21f892e880f3cdd3c760cc0f96130855b56dc46"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}"
+    data-feature-preview-close-hmac="e6932663834feedcbcffc706fff63366237363efcfdcf9e54f1e7295909c4afe"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}"
+    data-hydro-click-hmac="070b4043790120588756e5c28775ea68c5a7562289c8895db1e42faa11b4c5bf"
   >
     Feature preview
   </button>
     <span class="feature-preview-indicator js-feature-preview-indicator" hidden></span>
 </div>
 
-    <a role="menuitem" class="dropdown-item" href="https://docs.github.com" data-ga-click="Header, go to help, text:help" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;target&quot;:&quot;HELP&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="e7132173c825c83447dbf97706b0d828699cfb5ec93b8c6c1da5fb7534fbe88d" >Help</a>
-    <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;target&quot;:&quot;SETTINGS&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="1d8951f9d16e417cb6001ebfd66fee75c480528d7041a1821b82cb21976a0337" >Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="lzFjUJSikKbZ2QA2SqmjGuz9qAGw9R7xTmVQfbBGkJvOWn4kqBql7GoHq2Z3O4wWmsBF/Q6ewnr6Px0WkNHLBQ==" />
+    <a role="menuitem" class="dropdown-item" href="https://docs.github.com" data-ga-click="Header, go to help, text:help" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;target&quot;:&quot;HELP&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="9a75d2da652d954aea45f04f99c137a5072e775d49fde1099d48ad976cd31c05" >Help</a>
+    <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;target&quot;:&quot;SETTINGS&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="8c7674ebf301e75eb7d49d159a083ef86eaa489af169c9460b4a402370798c4c" >Settings</a>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="bI0UHfYfybJXy8RZrhOgceChl7IjgY5z+Zwasm/iJcQ15glpyqf8+OQVbwmTgY99lpx6Tp3qUvhNxlfZT3V+Wg==" />
       
-      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;target&quot;:&quot;SIGN_OUT&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="dd822f575037df3ab6b833df323bbe3abecd2ca5324b4855929d7f331c3a31d6"  role="menuitem">
+      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;target&quot;:&quot;SIGN_OUT&quot;,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="d460b98f89702bc301741e84c9f1b45cc9422112b685a32c2840a30c3c8e0c7b"  role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_a8de" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1599591148770" class="form-control" /><input type="hidden" name="timestamp_secret" value="d27e85716f55f6bdcc44d5d8ddbe091184fa853f8fe13a7cc6a6cd090a0984dc" class="form-control" />
+      <input type="text" name="required_field_58bb" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1599591159539" class="form-control" /><input type="hidden" name="timestamp_secret" value="510e0212124b62cb1dfec66677d420e058bcac9e09a04686d54e3d3c1d458d10" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -738,10 +738,10 @@
       <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 
   <li>
-        <form data-remote="true" class="d-flex js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="R+kVp8vmM8cTe4/416x8otcC67dgYOx+bfV1kPSWHWf16hxKZmWIQCRjaKK24gbLzFYPIUlzzz53h6aQ4N4vYw==" />      <input type="hidden" name="repository_id" value="78254526">
+        <form data-remote="true" class="d-flex js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="5VFhm9EhUljy7TRUFz+QfXkicvfTOphQWPHTZk2u9GRXUmh2fKLp38X10w52ceoUYnaWYfopuxBCgwBmWebGYA==" />      <input type="hidden" name="repository_id" value="78254526">
 
       <details class="details-reset details-overlay select-menu hx_rsm">
-        <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:78254526,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="174c0ff3da3d1fa21995c41017a84afe5695c182e2d72d45de3e11d77208ab6e" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:78254526,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="9a2734a1265420b92865a8305c9d25716323ef09fe12e03698521126ae601829" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg height="16" class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
               Watch
           </span>
@@ -813,18 +813,18 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="BxpDLURZzWFd+lV/abge71Rr/y5UFH+Q6Og6NyLRNPALmK0Zc6GZ37HpJ4a2tt6jg5Hh0zK34lrGTjl9xQo5Bg==" />
+    <form class="starred js-social-form" action="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="+4wdaF4ecNI4oxPA/WRA1aIQzacgZtmW7xeqMmfTdAP3DvNcaeYkbNSwYTkiaoCZderTWkbFRFzBsal4gAh59Q==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:78254526,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="cf07a61da4e89e7a41d3e667932559d4c62fb69158ffe16fc5dfecf3440508a5" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star-fill" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:78254526,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="ce31145c5f72de3113fdf0606b56601c10092c5f784ed2f3225b43c8cac76f5c" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star-fill" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
         Unstar
 </button>        <a class="social-count js-social-count" href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/stargazers"
            aria-label="0 users starred this repository">
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="6D8czL9dRAnGiqXz3CZoRD68MdcKKUVvLhp+Gi55PCZo2ApLeZeN9ecwl7itnTGhw/pLtAj5UwB6xcw+JBcYwQ==" />
+    <form class="unstarred js-social-form" action="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="YQzhoYfY3kll6U4jFccxCxsy4SiuP1YfLoLk3TMnxVDh6/cmQRIXtURTfGhkfGju5nSbS6zvQHB6XVb5OUnhtw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:78254526,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="2b39985bb6be2df14cd15f96f3c6d5bd9a405b70ff29dd8bd4607fd01031dcaf" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:78254526,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="a855462fc2ccc115d116d5c1d8de6255a8864bfd0ebc9e654c6c13fc241a7f58" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
         Star
 </button>        <a class="social-count js-social-count" href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/stargazers"
            aria-label="0 users starred this repository">
@@ -835,8 +835,8 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="pYEmUpEAsISw4AcJLHdMVWYtnN+TJqq2PkANm/cDYmB+YWsEOVbmVZ0ylH6Q+qvwm3Wf429JHB7duds1WKzhXw==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:78254526,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="be5d32f91ee723d108adba01ef5a01b2b986b63a25607cf353655d89544f0605" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup to your account" aria-label="Fork your own copy of cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup to your account">              <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="3xjBqnSOd2ZS0fuPse9LkXPsx6wLKqrvCBNVTumLUvoE+Iz83Nght38DaPgNYqw0jrTEkPdFHEfr6oPgRiTRxQ==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:78254526,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="8efc8a011e16ef4f1145d738ab1e42971f656a9f0d878b9b2b2243a7c3024f5a" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup to your account" aria-label="Fork your own copy of cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup to your account">              <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
               Fork
 </button></form>
     <a href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/network/members" class="social-count"
@@ -958,9 +958,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/0f7688c1931f050f9734f2bf6c6ac0eb0d5f03a5/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/0f7688c1931f050f9734f2bf6c6ac0eb0d5f03a5/pml-coursera-project.md">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:2b6fc4d7e8a42adacb5a59a7c10bd7fc -->
+    <!-- blob contrib key: blob_contributors:v22:19862eae0b7e39930fa6490d6ad58fdb -->
     
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
@@ -975,7 +975,7 @@
       <span class="dropdown-caret"></span>
     </summary>
 
-    <details-menu class="SelectMenu SelectMenu--hasFilter" src="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/refs/master/README.md?source_action=show&amp;source_controller=blob" preload>
+    <details-menu class="SelectMenu SelectMenu--hasFilter" src="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/refs/master/pml-coursera-project.md?source_action=show&amp;source_controller=blob" preload>
       <div class="SelectMenu-modal">
         <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
           <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 24 24" version="1.1" width="32" aria-hidden="true"><path d="M7.75 11c-.69 0-1.25.56-1.25 1.25v1.5a1.25 1.25 0 102.5 0v-1.5C9 11.56 8.44 11 7.75 11zm1.27 4.5a.469.469 0 01.48-.5h5a.47.47 0 01.48.5c-.116 1.316-.759 2.5-2.98 2.5s-2.864-1.184-2.98-2.5zm7.23-4.5c-.69 0-1.25.56-1.25 1.25v1.5a1.25 1.25 0 102.5 0v-1.5c0-.69-.56-1.25-1.25-1.25z"></path><path fill-rule="evenodd" d="M21.255 3.82a1.725 1.725 0 00-2.141-1.195c-.557.16-1.406.44-2.264.866-.78.386-1.647.93-2.293 1.677A18.442 18.442 0 0012 5c-.93 0-1.784.059-2.569.17-.645-.74-1.505-1.28-2.28-1.664a13.876 13.876 0 00-2.265-.866 1.725 1.725 0 00-2.141 1.196 23.645 23.645 0 00-.69 3.292c-.125.97-.191 2.07-.066 3.112C1.254 11.882 1 13.734 1 15.527 1 19.915 3.13 23 12 23c8.87 0 11-3.053 11-7.473 0-1.794-.255-3.647-.99-5.29.127-1.046.06-2.15-.066-3.125a23.652 23.652 0 00-.689-3.292zM20.5 14c.5 3.5-1.5 6.5-8.5 6.5s-9-3-8.5-6.5c.583-4 3-6 8.5-6s7.928 2 8.5 6z"></path></svg>
@@ -987,7 +987,7 @@
 </div>
 
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal mx-0 mx-md-3 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup"><span>Peer-graded-Assignment-Prediction-Assignment-Writeup</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup"><span>Peer-graded-Assignment-Prediction-Assignment-Writeup</span></a></span></span><span class="separator">/</span><strong class="final-path">pml-coursera-project.md</strong>
       </h2>
       <a href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/find/master"
             class="js-pjax-capture-input btn mr-2 d-none d-md-block"
@@ -1004,7 +1004,7 @@
 
 </summary>            <ul class="dropdown-menu dropdown-menu-sw">
             <li class="d-block d-md-none">
-              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:78254526,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/README.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="adb2b813944463a1e31a48ad5a12fad75f34f9bc8db7011843bcce6fb7fd7fe3" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/find/master">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:78254526,&quot;originating_url&quot;:&quot;https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project.md&quot;,&quot;user_id&quot;:53146205}}" data-hydro-click-hmac="b71ed13d225f87ed23ffad04cd5d5ede22c414289296e68b3ae1b6be3d0aa3c6" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/find/master">
                 <span class="flex-auto">Go to file</span>
                 <span class="text-small text-gray" aria-hidden="true">T</span>
 </a>            </li>
@@ -1018,7 +1018,7 @@
             </li>
             <li class="dropdown-divider" role="none"></li>
             <li>
-              <clipboard-copy value="README.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+              <clipboard-copy value="pml-coursera-project.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
                 Copy path
               </clipboard-copy>
             </li>
@@ -1029,7 +1029,7 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      <include-fragment src="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/contributors/master/README.md" class="commit-loader">
+      <include-fragment src="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/contributors/master/pml-coursera-project.md" class="commit-loader">
         <div class="Box-header Box-header--blue d-flex flex-items-center">
           <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
           <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -1052,34 +1052,34 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      15 lines (8 sloc)
+      260 lines (204 sloc)
       <span class="file-info-divider"></span>
-    1.06 KB
+    8.8 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/raw/master/README.md" id="raw-url" role="button" class="btn btn-sm BtnGroup-item ">Raw</a>
-        <a href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blame/master/README.md" data-hotkey="b" role="button" class="btn js-update-url-with-hash btn-sm BtnGroup-item ">Blame</a>
+      <a href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/raw/master/pml-coursera-project.md" id="raw-url" role="button" class="btn btn-sm BtnGroup-item ">Raw</a>
+        <a href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blame/master/pml-coursera-project.md" data-hotkey="b" role="button" class="btn js-update-url-with-hash btn-sm BtnGroup-item ">Blame</a>
     </div>
 
     <div>
           <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
              data-platforms="windows,mac"
-             href="x-github-client://openRepo/https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup?branch=master&amp;filepath=README.md"
+             href="x-github-client://openRepo/https://github.com/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup?branch=master&amp;filepath=pml-coursera-project.md"
              aria-label="Open this file in GitHub Desktop"
              data-ga-click="Repository, open with desktop">
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/edit/master/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="VqlEebqERKJ04XoLbgO6MKhvKEvQYBzEQwKtEE0CYox9lPqvRF70vqcaU3ZjPun1v+eKnYbR2Su2FpQdNqyB7g==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/edit/master/pml-coursera-project.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="qhAVRQGWmai/30JZPeWiSv7nZYAFM4KjK/btmFz85v10XK8VOie9mfvxZjLPWgHnUcL7x58akvbYRUSbNBalSQ==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/delete/master/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="pWWTLZF4eCoWr+aMrV/x4crfMdXVDqlXCFUzL7lnXKxGUdyRoWkd7+iEuTW3leAHq4F9aHbR5UUzTIor2GtHrw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/delete/master/pml-coursera-project.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="PaqKIGOSVOAXCseqcRW6E6TnQhZypKn/DdHzbbttAfFkEyD7qcOTQTKgDn3tR9mMvRIAPwL/3mTW2nkSaHvsdA==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
@@ -1092,14 +1092,247 @@
 
       
   <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content-practical_machine_learning_coursera" class="anchor" aria-hidden="true" href="#practical_machine_learning_coursera"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Practical_Machine_Learning_Coursera</h1>
-<p>Practical_Machine_Learning_Coursera</p>
-<p>Repository for the Practical Machine Learning class, John Hopkins, Coursera.</p>
-<p>The pml-coursera-project.Rmd and the pml-coursera-project.html are the R markdown and the HTML files respectively, that describe the analysis performed on the Weight Lifting Exercise Dataset, for the final project of the Practical Machine Learning class.</p>
-<p>For examining further the compiled HTML file, pml-coursera-project.html, for the results of the analysis, the reviewer should click the green button named "Clone or download", download files in a .zip file and open the pml-coursera-project.html file with his/her browser.</p>
-<p>The pml-coursera-project.md is a markdown file, created to aid the reviewers in taking a quick look in the analysis.</p>
-<p>pml-training.csv and pml-testing.csv are the original datasets used for the analysis.</p>
-<p>testing_with_predictions file contains a table with the pml-testing.csv dataset observations along with the predictions performed by the Random Forest model of the analysis, for the variable classe.</p>
+    <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content-practical-machine-learning-project" class="anchor" aria-hidden="true" href="#practical-machine-learning-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Practical Machine Learning Project</h1>
+<h2><a id="user-content-background" class="anchor" aria-hidden="true" href="#background"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Background</h2>
+<p>Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now
+possible to collect a large amount of data about personal activity
+relatively inexpensively. These type of devices are part of the
+quantified self movement - a group of enthusiasts who take measurements
+about themselves regularly to improve their health, to find patterns in
+their behavior, or because they are tech geeks. One thing that people
+regularly do is quantify how much of a particular activity they do, but
+they rarely quantify how well they do it. In this project, your goal
+will be to use data from accelerometers on the belt, forearm, arm, and
+dumbell of 6 participants. They were asked to perform barbell lifts
+correctly and incorrectly in 5 different ways. More information is
+available from the website here:
+<a href="http://groupware.les.inf.puc-rio.br/har" rel="nofollow">http://groupware.les.inf.puc-rio.br/har</a> (see the section on the Weight
+Lifting Exercise Dataset).</p>
+<h2><a id="user-content-data" class="anchor" aria-hidden="true" href="#data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Data</h2>
+<p>The training data for this project are available here:</p>
+<p><a href="https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv" rel="nofollow">https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv</a></p>
+<p>The test data are available here:</p>
+<p><a href="https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv" rel="nofollow">https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv</a></p>
+<h1><a id="user-content-analysis" class="anchor" aria-hidden="true" href="#analysis"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Analysis</h1>
+<p>Loading data:</p>
+<pre><code>training = read.csv("./pml-training.csv",na.strings=c("NA","#DIV/0!",""))
+testing = read.csv("./pml-testing.csv",na.strings=c("NA","#DIV/0!",""))
+
+# Data dimensions
+dim(training)
+
+## [1] 19622   160
+
+dim(testing)
+
+## [1]  20 160
+
+# First look at the data
+head(training)
+head(testing)
+</code></pre>
+<p>Cross-validation will be performed by spliting the training dataset
+into:</p>
+<ol>
+<li>
+<p>A training dataset, containing 70% of the observations. The models
+for prediction will be built using this dataset.</p>
+</li>
+<li>
+<p>A testing dataset, containing 30% of the observations. The accuracy
+of our prediction models will be evaluated using this dataset.</p>
+</li>
+</ol>
+
+<pre><code># load packages
+library(caret)
+library(randomForest)
+
+# Index for training dataset (70%) and testing dataset (30%) 
+# from the pml-training data set
+set.seed(12345)
+inTrain = createDataPartition(y=training$classe,p=0.7, list=FALSE)
+
+# training dataset
+training.set = training[inTrain,]
+# testing dataset
+testing.set = training[-inTrain,]
+</code></pre>
+<p>Training and testing data consist of 160 variables. The choice of
+specific predictors is based on removing near zero variance predictors,
+with the nearZeroVar function, and also variables containing many NAs.</p>
+<pre><code># Remove near zero variance predictors
+ind.nzv = nearZeroVar(x = training, saveMetrics = T)
+
+# Remove variables with more than 50% NA values
+ind.NA = !as.logical(apply(training, 2, function(x){ mean(is.na(x)) &gt;= 0.5}))
+
+# Cleaning data
+ind2 = ind.NA*1 + (!ind.nzv$nzv)*1
+ind3 = ind2 == 2
+sum(ind3)
+
+## [1] 59
+
+#View(data.frame(ind.NA, !ind.nzv$nzv, ind2, ind3))
+
+training.set = training.set[,ind3]
+testing.set = testing.set[, ind3]
+
+training.set = training.set[, -1]
+testing.set = testing.set[, -1]
+
+testing = testing[,ind3]
+testing = testing[,-1]
+
+# Coerce the data into the same type in order to avoid
+# "Matching Error" when calling random forest model, due to different levels in variables
+
+for (i in 1:length(testing) ) {
+  for(j in 1:length(training.set)) {
+    if( length( grep(names(training.set[i]), names(testing)[j]) ) == 1)  {
+      class(testing[j]) &lt;- class(training.set[i])
+    }      
+  }      
+}
+
+# To get the same class between testing and training.set
+testing = testing[,-ncol(testing)]
+testing &lt;- rbind(training.set[2, -58] , testing)
+testing &lt;- testing[-1,]
+</code></pre>
+<p>We will use two approaches to create a prediction model for the values
+of classe variable.</p>
+<p>Firstly prediction with trees will be attempted, using the 'rpart'
+method and the caret package.</p>
+<pre><code># Prediction with Trees
+# Build model
+set.seed(12345)
+tree.fit = train(y = training.set$classe,
+                 x = training.set[,-ncol(training.set)],
+                 method = "rpart")
+
+# Plot classification tree
+rattle::fancyRpartPlot(
+  tree.fit$finalModel
+)
+</code></pre>
+<p><a target="_blank" rel="noopener noreferrer" href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project2_files/figure-markdown_strict/prediction%20with%20trees-1.png"><img src="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/raw/master/pml-coursera-project2_files/figure-markdown_strict/prediction%20with%20trees-1.png" alt="" style="max-width:100%;"></a></p>
+<pre><code># Predictions with rpart model
+pred.tree = predict(tree.fit, testing.set[,-ncol(testing.set)])
+
+# Get results (Accuracy, etc.)
+confusionMatrix(pred.tree, testing.set$classe)
+
+## Confusion Matrix and Statistics
+## 
+##           Reference
+## Prediction    A    B    C    D    E
+##          A 1062  106    0    0    0
+##          B  612 1027  780  178    0
+##          C    0    0    0    0    0
+##          D    0    0    0    0    0
+##          E    0    6  246  786 1082
+## 
+## Overall Statistics
+##                                          
+##                Accuracy : 0.5388         
+##                  95% CI : (0.526, 0.5516)
+##     No Information Rate : 0.2845         
+##     P-Value [Acc &gt; NIR] : &lt; 2.2e-16      
+##                                          
+##                   Kappa : 0.4176         
+##  Mcnemar's Test P-Value : NA             
+## 
+## Statistics by Class:
+## 
+##                      Class: A Class: B Class: C Class: D Class: E
+## Sensitivity            0.6344   0.9017   0.0000   0.0000   1.0000
+## Specificity            0.9748   0.6692   1.0000   1.0000   0.7839
+## Pos Pred Value         0.9092   0.3955      NaN      NaN   0.5104
+## Neg Pred Value         0.8703   0.9659   0.8257   0.8362   1.0000
+## Prevalence             0.2845   0.1935   0.1743   0.1638   0.1839
+## Detection Rate         0.1805   0.1745   0.0000   0.0000   0.1839
+## Detection Prevalence   0.1985   0.4413   0.0000   0.0000   0.3602
+## Balanced Accuracy      0.8046   0.7854   0.5000   0.5000   0.8919
+</code></pre>
+<p>Secondly a prediction model using random forest method will be created.</p>
+<pre><code># Prediction with Random Forest
+# Build model
+set.seed(12345)
+rf.fit = randomForest(
+  classe ~ .,
+  data = training.set,
+  ntree = 250)
+
+# Plot the Random Forests model
+plot(rf.fit)
+</code></pre>
+<p><a target="_blank" rel="noopener noreferrer" href="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/blob/master/pml-coursera-project2_files/figure-markdown_strict/random%20forest-1.png"><img src="/cavidya/Peer-graded-Assignment-Prediction-Assignment-Writeup/raw/master/pml-coursera-project2_files/figure-markdown_strict/random%20forest-1.png" alt="" style="max-width:100%;"></a></p>
+<pre><code># Predict with random forest model
+pred2 = predict(
+  rf.fit,
+  testing.set[,-ncol(testing.set)]
+)
+
+# Get results (Accuracy, etc.)
+confusionMatrix(pred2, testing.set$classe)
+
+## Confusion Matrix and Statistics
+## 
+##           Reference
+## Prediction    A    B    C    D    E
+##          A 1673    0    0    0    0
+##          B    1 1139    2    0    0
+##          C    0    0 1022    0    0
+##          D    0    0    2  964    2
+##          E    0    0    0    0 1080
+## 
+## Overall Statistics
+##                                           
+##                Accuracy : 0.9988          
+##                  95% CI : (0.9976, 0.9995)
+##     No Information Rate : 0.2845          
+##     P-Value [Acc &gt; NIR] : &lt; 2.2e-16       
+##                                           
+##                   Kappa : 0.9985          
+##  Mcnemar's Test P-Value : NA              
+## 
+## Statistics by Class:
+## 
+##                      Class: A Class: B Class: C Class: D Class: E
+## Sensitivity            0.9994   1.0000   0.9961   1.0000   0.9982
+## Specificity            1.0000   0.9994   1.0000   0.9992   1.0000
+## Pos Pred Value         1.0000   0.9974   1.0000   0.9959   1.0000
+## Neg Pred Value         0.9998   1.0000   0.9992   1.0000   0.9996
+## Prevalence             0.2845   0.1935   0.1743   0.1638   0.1839
+## Detection Rate         0.2843   0.1935   0.1737   0.1638   0.1835
+## Detection Prevalence   0.2843   0.1941   0.1737   0.1645   0.1835
+## Balanced Accuracy      0.9997   0.9997   0.9981   0.9996   0.9991
+</code></pre>
+<p>The accuracy of the random forest model is, as expected, much higher
+than the rpart model, over 0.99!</p>
+<p>Random Forest model performed better and constitutes the model of choice
+for predicting the 20 observations of the original pml-testing.csv
+dataset.</p>
+<pre><code># Get predictions for the 20 observations of the original pml-testing.csv
+
+pred.validation = predict(rf.fit, testing)
+pred.validation
+
+##  1  2 31  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 
+##  B  A  B  A  A  E  D  B  A  A  B  C  B  A  E  E  A  B  B  B 
+## Levels: A B C D E
+
+# Saving predictions for testing dataset
+testing$pred.classe = pred.validation
+
+write.table(
+  testing,
+  file = "testing_with_predictions",
+  quote = F
+)
+</code></pre>
 </article>
   </div>
 
